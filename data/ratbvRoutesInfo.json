@@ -1,0 +1,26 @@
+{
+    "allRoutes": {
+        "url": "http://www.ratbv.ro/trasee-si-orare/",
+        "dataContainerHTMLIdentifier": ".continut-pagina > table",
+        "route": {
+            "htmlIdentifier": "tr > td",
+            "labelChildrenIndex": "0",
+            "descriptionChildrenIndex": "1"
+        }
+    },
+    "singleRouteSchedule": {
+        "url": "https://www.ratbv.ro",
+        "urlSuffix": "/afisaje/",
+        "stations": {
+            "frameIndex": 1,
+            "htmlIdentifier": "#glue_file"
+        },
+        "schedule": {
+            "htmlIdentifier": "#tabele",
+            "luniVineriTableIndex": 0,
+            "sambataDuminicaTableIndex": 1,
+            "scheduleHour": "#web_class_hours",
+            "scheduleMinutes": "#web_class_minutes"
+        }
+    }
+}
