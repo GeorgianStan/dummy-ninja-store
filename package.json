@@ -30,7 +30,7 @@
     "log-symbols": "^2.2.0",
     "morgan": "^1.9.1",
     "nexmo": "^2.4.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
